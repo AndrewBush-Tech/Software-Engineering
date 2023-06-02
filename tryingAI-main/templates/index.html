@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title>OpenAI Quickstart</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='dog.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
+  <h3>Generate a pitch!</h3>
+  <form action="/" method="post">
+    <input type="text" name="one" placeholder="Enter a term" required />
+    <input type="text" name="two" placeholder="Enter a term" required />
+    <input type="text" name="three" placeholder="Enter term" required />
+    <input type="submit" value="Get my pitch!" />
+  </form>
+  {% if result %}
+  <div class="result" type="text" maxlength="5000">{{ result }}</div>
+  {% endif %}
+</body>
