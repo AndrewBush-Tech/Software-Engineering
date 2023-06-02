@@ -12,7 +12,7 @@ In the project directory, you can run:
 ### `flask run`
 Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
-# quakes-main (partner's Microservice)
+# Software-Engineering-front-end/quakes-main
 In the project directory, you can run:
 ### `python quakeFlask.py`
 
