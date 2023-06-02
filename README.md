@@ -18,7 +18,9 @@ In the project directory, you can run:
 
 # Software-Engineering-front-end/OpenAIMicroservice
 ## How to REQUEST data from the microservice:
-* Include "https://fejxhfgkg7.execute-api.us-east-2.amazonaws.com/Beta/search".
+* input parameters into URL: https://fejxhfgkg7.execute-api.us-east-2.amazonaws.com/Beta/search?one=Python&two=Programming&three=Language
+### OR
+* Include "https://fejxhfgkg7.execute-api.us-east-2.amazonaws.com/Beta/search" into app as API (note NO API key required).
 * Include three parameters at end of URL one="put parameter here", two="put parameter here",three="put parameter here".
 * Error handling for special characters: "!@#$%^&*()_+=-[]{}|\\;':\"<>,?/~`." 
 * Error handling for Uppercase letters. 
