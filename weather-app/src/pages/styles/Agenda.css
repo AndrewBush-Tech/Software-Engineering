@@ -1,0 +1,141 @@
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f6f8fa47;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2D3748;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  table {
+    font-size: 18px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  th {
+    font-weight: bold;
+    color: #4A5568;
+    text-align: left;
+    padding: 10px;
+    background-color: #EDF2F7;
+    border-bottom: 2px solid #E2E8F0;
+  }
+  
+  td {
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  
+  td:last-child {
+    text-align: right;
+  }
+  
+  button {
+    border: none;
+    background-color: #4C51BF;
+    color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #4299E1;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+  }
+  
+  .back-arrow:hover {
+    opacity: 0.8;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    color: #4A5568;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CBD5E0;
+    border-radius: 5px;
+    background-color: #EDF2F7;
+    color: #4A5568;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  input[type="time"]:focus {
+    outline: none;
+    border-color: #4299E1;
+  }
+  
+  button[type="submit"] {
+    background-color: #4C51BF;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #434190;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    margin-right: 10px;
+  }
+  
+  .selected {
+    background-color: #EBF8FF;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page-container {
+      padding: 30px;
+    }
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    label {
+      font-size: 14px;
+    }
+  
+    input[type="text"],
+    input[type="date"],
+    input[type="time"] {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  
