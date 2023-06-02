@@ -1,4 +1,4 @@
-# Software-Engineering-front-end/weather-app
+# Software-Engineering/weather-app
 In the project directory, you can run:
 ### `npm install`
 ### `npm start`
@@ -6,17 +6,17 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-# Software-Engineering-front-end/tryingAI-main
+# Software-Engineering/tryingAI-main
 In the project directory, you can run:
 ### `pip install -r requirements.txt`
 ### `flask run`
 Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
-# Software-Engineering-front-end/quakes-main
+# Software-Engineering/quakes-main
 In the project directory, you can run:
 ### `python quakeFlask.py`
 
-# Software-Engineering-front-end/OpenAIMicroservice
+# Software-Engineering/OpenAIMicroservice
 ## How to REQUEST data from the microservice:
 * input parameters into URL: https://fejxhfgkg7.execute-api.us-east-2.amazonaws.com/Beta/search?one=Python&two=Programming&three=Language
 ### OR
